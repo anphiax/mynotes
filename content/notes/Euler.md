@@ -12,6 +12,7 @@ $$\sin x = x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!} + \cdots =\sum_{n=0}^{
 Ở đây, sin x được biểu diễn như là một đa thức với bậc vô hạn. Vì là đa thức, nên nó có thể được viết lại dưới dạng tích của các thừa số có nghiệm của nó.
 
 Vì sin x có các nghiệm là 0, $\pm \pi$, $\pm 2\pi$, $\pm 3\pi$,... nên nó có thể được viết lại dưới dạng tích. Ta có thể viết lại một chút. A này là một hằng số, nhưng cuối cùng nó cũng phải bằng 1 giới hạn sin x/x khi x tiến đến 0 bằng 1. Và ta viết lại dưới dạng gọn hơn như sau.
+
 $$\begin{aligned}
 \sin x &= x\left(x^2-\pi^2 \right)\left(x^2-4\pi^2 \right)\left(x^2-9\pi^2 \right)\cdots\\
 &=Ax \left(1-\frac{x^2}{\pi^2}\right) \left(1-\frac{x^2}{2^2\pi^2}\right)\left(1-\frac{x^2}{3^2\pi^2}\right)\cdots\\
@@ -19,6 +20,7 @@ $$\begin{aligned}
 &=x\prod_{n=1}^\infty \left(1-\frac{x^2}{n^2\pi^2}\right) 
 \end{aligned}
 $$
+
 Như vậy, sin x bây giờ có thể được biểu diễn theo hai cách
 $$\sin x = x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!} + \cdots = x\left(1-\frac{x^2}{\pi^2}\right) \left(1-\frac{x^2}{2^2\pi^2}\right)\left(1-\frac{x^2}{3^2\pi^2}\right)\cdots$$
 Cân bằng hệ số của x^3, ta được
