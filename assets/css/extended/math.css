@@ -1,0 +1,11 @@
+/* Fix overflow for long KaTeX equations */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+}
+
+/* Optional: smoother scroll */
+.katex-display::-webkit-scrollbar {
+  height: 6px;
+}
