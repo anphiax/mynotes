@@ -10,3 +10,5 @@ theme = "PaperMod"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
+  math = true
+  katex = true
